@@ -56,7 +56,7 @@ public class Tower : MonoBehaviour
             var towerId = 0;
             transform.DOMoveX(0f, 0.5f).SetEase(Ease.Flash);
     
-            yield return new WaitForSecondsRealtime(0.55f);
+            yield return new WaitForSecondsRealtime(0.40f);
             
             foreach (int towerHumanCount in towerCountList)
             {
